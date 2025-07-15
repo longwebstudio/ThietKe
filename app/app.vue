@@ -20,8 +20,8 @@ const appear = ref(false)
 const appeared = ref(false)
 
 useSeoMeta({
-  ogImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2xhbmRpbmctdGVtcGxhdGUubnV4dC5kZXYiLCJpYXQiOjE3Mzk0NjMzNzV9.ja2nUDVOoIFvyaMmg9Jn51uNMoYYt4WA1KWUQBWwUPo.jpg?theme=light',
-  twitterImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2xhbmRpbmctdGVtcGxhdGUubnV4dC5kZXYiLCJpYXQiOjE3Mzk0NjMzNzV9.ja2nUDVOoIFvyaMmg9Jn51uNMoYYt4WA1KWUQBWwUPo.jpg?theme=light',
+  ogImage: 'https://i0.wp.com/longwebstudio.net/wordpress/wp-content/uploads/2025/07/Toi-giup-doanh-nghiep-nho-co-website-chuyen-nghiep-%E2%80%93-ngay-ca-khi-ban-chua-biet-bat-dau-tu-dau.-1.png',
+  twitterImage: 'https://i0.wp.com/longwebstudio.net/wordpress/wp-content/uploads/2025/07/Toi-giup-doanh-nghiep-nho-co-website-chuyen-nghiep-%E2%80%93-ngay-ca-khi-ban-chua-biet-bat-dau-tu-dau.-1.png',
   twitterCard: 'summary_large_image'
 })
 
@@ -37,7 +37,7 @@ onMounted(() => {
 
 <template>
   <UApp :toaster="{ expand: false }">
-    <AppHeader />
+    <!-- <AppHeader /> -->
 
     <UMain class="relative">
       <HeroBackground
@@ -50,6 +50,6 @@ onMounted(() => {
       <NuxtPage />
     </UMain>
 
-    <AppFooter />
+    <!-- <AppFooter /> -->
   </UApp>
 </template>

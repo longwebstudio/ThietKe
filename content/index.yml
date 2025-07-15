@@ -17,7 +17,7 @@ hero:
       icon: i-lucide-arrow-right
       trailing: true
       variant: subtle
-      to: '#cta' # Chuyển đến khu vực kêu gọi hành động
+      to: 'https://www.longwebstudio.net/lien-he' # Chuyển đến khu vực kêu gọi hành động
       size: xl
     - label: Liên hệ Zalo
       icon: i-simple-icons-zalo
