@@ -1,161 +1,137 @@
+# -----------------------------------------------------------------
+# NỘI DUNG LANDING PAGE MỚI CHO LONG WEB STUDIO
+# CẤU TRÚC THEO AIDA & TỐI ƯU CHUYỂN ĐỔI
+# -----------------------------------------------------------------
+
+# [SEO] - Cấu hình Meta Title & Description cho Google
 seo:
-  title: Nuxt Landing Template
-  description: Boost your coding productivity with AI-driven insights that tell you when and how to code most efficiently.
-title: Build your landing with [Nuxt UI Pro]{.text-primary}
-description: Boost your coding productivity with AI-driven insights that tell you when and how to code most efficiently.
+  title: Thiết Kế Website Nhanh, Chuẩn SEO, Tự Động Bán Hàng – Long Web Studio
+  description: Long Web Studio – Thiết kế website tốc độ nhanh, chuẩn SEO, tự động bán hàng giúp doanh nghiệp nghỉ ngơi vẫn có đơn. Đăng ký tư vấn miễn phí ngay.
+
+# [A] ATTENTION – Thu hút sự chú ý ngay lập tức
+title: 🚀 Website tốc độ nhanh, chuẩn SEO, [tự động bán hàng]{.text-primary}
+description: 💡 Giúp doanh nghiệp nghỉ ngơi vẫn có đơn, tăng doanh số và giảm chi phí quảng cáo.
 hero:
   links:
-    - label: Getting Started
+    - label: Nhận tư vấn miễn phí ngay
       icon: i-lucide-arrow-right
       trailing: true
       variant: subtle
-      to: https://ui.nuxt.com/getting-started/installation/pro/nuxt
-      target: _blank
+      to: '#cta' # Chuyển đến khu vực kêu gọi hành động
       size: xl
-    - label: Clone on GitHub
-      icon: i-simple-icons-github
+    - label: Liên hệ Zalo
+      icon: i-simple-icons-zalo
       size: xl
       color: neutral
       variant: ghost
-      to: https://github.com/nuxt-ui-pro/landing
+      to: https://zalo.me/0374638603
       target: _blank
+
+# [I] INTEREST – Gây hứng thú bằng cách nêu vấn đề và giải pháp
 section:
-  title: '[Revolutionize]{.text-primary} your coding experience'
-  description: Transform your development workflow with AI-powered insights and personalized productivity optimization.
+  title: 'Bạn có biết? Những vấn đề khiến bạn [mất khách hàng]{.text-primary} mỗi ngày'
+  description: 'Với hơn 5 năm kinh nghiệm, tôi là Lỗ Văn Long – Long Web Studio, sẽ giải quyết triệt để các vấn đề của bạn.'
   images:
+    # Đề xuất: Thay ảnh macbook bằng hình ảnh Lỗ Văn Long đang làm việc hoặc ảnh concept về tốc độ/tự động hóa.
     mobile: '/images/macbook-mobile.svg'
     desktop: '/images/macbook.svg'
   features:
-    - title: Optimize your focus time
-      description: Let AI identify your peak coding hours and adapt to your natural rhythm. Focus on what matters most - writing great code, while our system optimizes your productivity patterns.
+    - title: ❌ Website chậm 1s giảm 20% chuyển đổi
+      description: ✅ Giải pháp của tôi → Website load dưới 3 giây, giữ chân khách hàng hiệu quả.
       class: border-l border-primary pl-4
-    - title: Track your best coding hours
-      description: Track when you code best with smart analytics. Get actionable insights to tackle challenging tasks during your peak performance hours.
+    - title: ❌ Website không chuẩn SEO, tốn tiền quảng cáo
+      description: ✅ Giải pháp của tôi → Chuẩn SEO từ gốc, giúp bạn lên top Google, có khách tự nhiên.
       class: border-l border-default pt-4 pl-4
-    - title: Improve workflow efficiency
-      description: Automate your workflow optimization from code snippets to focus management. Ship better code faster with a streamlined development process.
+    - title: ❌ Mệt mỏi vì chốt đơn, trả lời tin nhắn thủ công
+      description: ✅ Giải pháp của tôi → Tự động hóa bán hàng 24/7, bạn chỉ cần tập trung phát triển sản phẩm.
       class: border-l border-default pt-4 pl-4
+
+# [D] DESIRE – Khơi gợi mong muốn
 features:
-  title: Take control of your [productivity]{.text-primary}
-  description: Make every coding session count with smart analytics and workflow optimization.
+  title: Hãy tưởng tượng một hệ thống [làm việc thay bạn]{.text-primary}
+  description: 'Khi bạn nghỉ ngơi, website vẫn hoạt động không ngừng nghỉ để mang về lợi nhuận.'
   features:
-    - title: AI-Powered Focus Tracking
-      description: Discover your optimal coding hours with real-time AI analysis of your productivity patterns.
-      icon: i-lucide-wand-sparkles
+    - title: Sáng thức dậy đã có đơn hàng mới
+      description: Bắt đầu ngày mới với thông báo đơn hàng đã được hệ thống tự động xử lý.
+      icon: i-lucide-shopping-cart
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Distraction Alerts
-      description: Get notified when your focus drifts and bring your attention back.
-      icon: i-lucide-bell-ring
+    - title: Khách hàng dễ dàng tìm thấy bạn
+      description: Website chạy mượt mà trên mọi thiết bị, khách hàng có trải nghiệm hoàn hảo dù truy cập bằng điện thoại hay máy tính.
+      icon: i-lucide-smartphone-device
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Smart Code Snippets
-      description: Save and reuse frequently used code blocks for efficiency.
-      icon: i-lucide-code-xml
+    - title: Không cần ngồi canh Facebook cả ngày
+      description: Hệ thống tự động chốt đơn, lưu thông tin khách và gửi thông báo cho bạn mà không cần online 24/7.
+      icon: i-lucide-bot
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Deep Work Mode
-      description: Block distractions and set structured coding sessions with built-in Pomodoro timers.
-      icon: i-lucide-moon
-      ui:
-        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Collaborative Insights
-      description: Sync your workflow with teammates and see when they are most productive.
-      icon: i-lucide-mouse-pointer-2
-      ui:
-        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Performance Analytics
-      description: Track your coding metrics and get insights to boost your speed and code quality.
-      icon: i-lucide-chart-line
-      ui:
-        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-steps:
-  title: Start coding smarter in [3 steps]{.text-primary}
-  description: Transform your development workflow with our AI-powered assistant.
-  items:
-    - title: Connect Your IDE
-      description: Seamlessly integrate with VS Code, JetBrains, or your preferred editor. Get started in under 2 minutes with zero configuration needed.
-      image:
-        light: '/images/light/connect.svg'
-        dark: '/images/dark/connect.svg'
-    - title: Track & Analyze
-      description: Our AI silently monitors your coding patterns to identify your peak productivity hours and potential workflow bottlenecks.
-      image:
-        light: '/images/light/optimize.svg'
-        dark: '/images/dark/optimize.svg'
-    - title: Optimize & Code Smarter
-      description: Receive personalized recommendations to enhance your coding efficiency. Watch your productivity soar with data-driven insights.
-      image:
-        light: '/images/light/track.svg'
-        dark: '/images/dark/track.svg'
-pricing:
-  title: Choose your [productivity]{.text-primary} path
-  description: Unlock AI-powered coding efficiency with our flexible plans. Whether you're a solo developer or part of a team, we have the perfect toolset to maximize your development workflow.
-  plans:
-    - title: Pro Developer
-      description: Perfect for individual developers focused on maximizing productivity.
-      price: $199
-      features:
-        - AI productivity tracking to optimize your peak coding hours
-        - Smart distraction alerts to maintain deep focus
-        - Personal code snippet library for faster development
-        - Deep Work Mode with Pomodoro timer integration
-        - Performance analytics dashboard
-        - Priority email support
-      button:
-        label: Buy now
-        color: neutral
-        variant: outline
-        to: '#'
-    - title: Team Developer
-      description: For bootstrappers and indie hackers.
-      price: $199
-      features:
-        - Everything in Pro Developer
-        - Team productivity analytics and insights
-        - Collaborative code snippet sharing
-        - Cross-team performance tracking
-        - Synchronized deep work sessions
-        - Priority team support with dedicated manager
-      button:
-        label: Buy now
-        variant: subtle
-        to: '#'
+
+# [D] DESIRE – Củng cố mong muốn bằng bằng chứng xã hội
 testimonials:
-  title: Join thousands of productive [developers]{.text-primary}
-  description: See how developers are transforming their coding workflow and achieving more with our AI-powered platform.
+  title: 'Hàng trăm khách hàng đã [tăng trưởng vượt bậc]{.text-primary}'
+  description: 'Xem cách các doanh nghiệp đã thay đổi quy trình làm việc và đạt được nhiều thành công hơn với website do tôi thiết kế.'
   items:
-    - quote: Since using this tool, my productivity has doubled. The AI insights helped me find my perfect coding rhythm and now I ship features twice as fast.
+    - quote: Website của Long thiết kế rất nhanh, chuẩn SEO, lên top Google chỉ sau 1 tháng, doanh thu tăng gấp 3 lần.
       user:
-        name: 'Sarah Doe'
-        description: 'Full Stack Developer'
-        target: _blank
+        name: 'Chị Thắm'
+        description: 'Chủ spa Thiên Hương'
+        # Hướng dẫn: Thay avatar bằng ảnh thật của khách hàng để tăng uy tín
         avatar:
           src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/SarahM19'
-    - quote: Game-changer for our team. The focus tracking and smart alerts helped us reduce meeting interruptions by 40% and increased our sprint velocity.
+    - quote: Nhờ hệ thống tự động bán hàng, shop mình tiết kiệm chi phí ads 30% mà vẫn có đơn đều.
       user:
-        name: 'Sébastien Doe'
-        description:  'Lead Software Engineer'
-        target: _blank
+        name: 'Anh Quân'
+        description:  'Kinh doanh online'
+        # Hướng dẫn: Thay avatar bằng ảnh thật của khách hàng để tăng uy tín
         avatar:
           src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/atinux'
-    - quote: Finally, a productivity tool that understands developers. The AI features helped me identify my peak coding hours and now I accomplish more in less time.
-      user:
-        name: 'Benjamin Doe'
-        description:  'Senior Frontend Developer'
-        target: _blank
-        avatar:
-          src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/benjamincanac'
+
+# [A] ACTION – Kêu gọi hành động mạnh mẽ
+steps:
+  title: 'Bắt đầu hành trình tăng trưởng trong [3 bước đơn giản]{.text-primary}'
+  description: 'Quy trình tinh gọn để bạn sở hữu một cỗ máy bán hàng tự động.'
+  items:
+    - title: 1. Gửi yêu cầu tư vấn
+      description: 'Nhấn nút "Nhận tư vấn miễn phí", điền thông tin. Tôi sẽ liên hệ lại ngay.'
+      image:
+        # Đề xuất: Thay icon/ảnh phù hợp với hành động "điền form"
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+    - title: 2. Phân tích & Đề xuất giải pháp
+      description: 'Tôi sẽ phân tích website hiện tại (nếu có) và đề xuất giải pháp tối ưu nhất dành riêng cho bạn.'
+      image:
+        # Đề xuất: Thay icon/ảnh phù hợp với hành động "phân tích"
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+    - title: 3. Triển khai & Bàn giao
+      description: 'Xây dựng, hoàn thiện và bàn giao hệ thống website tự động, sẵn sàng mang về doanh thu.'
+      image:
+        # Đề xuất: Thay icon/ảnh phù hợp với hành động "hoàn thành"
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+
+# Khu vực này không cần thiết với nội dung mới, có thể ẩn hoặc xóa đi trong code
+pricing:
+  title: ''
+  description: ''
+  plans: []
+
+# [A] ACTION – CTA cuối trang, quyết định chuyển đổi
 cta:
-  title: Build your landing page with [Nuxt UI Pro]{.text-primary}
-  description: Nuxt UI Pro is free in development, but you need a license to use it in production.
+  id: cta # ID để nút bấm có thể trỏ tới
+  title: 'Đăng ký tư vấn miễn phí [ngay hôm nay!]{.text-primary}'
+  description: Tôi sẽ trực tiếp phân tích website hiện tại, đề xuất giải pháp tối ưu tốc độ, chuẩn SEO và xây dựng hệ thống bán hàng tự động phù hợp nhất cho doanh nghiệp của bạn.
   links:
-    - label: Buy now
-      to: 'https://ui.nuxt.com/pro/purchase'
+    - label: Nhận tư vấn miễn phí ngay
+      # Hướng dẫn: Gắn link form đăng ký tại đây
+      to: 'https://forms.gle/your-google-form-link' # Ví dụ link Google Form
       target: _blank
-      icon: i-lucide-shopping-cart
-    - label: License
-      to: 'https://ui.nuxt.com/getting-started/license'
-      trailingIcon: i-lucide-circle-help
+      icon: i-lucide-send
+      size: xl
+    - label: 'Hoặc liên hệ Zalo: 0374 638 603'
+      to: 'https://zalo.me/0374638603'
       target: _blank
+      trailingIcon: i-lucide-phone-call
       variant: subtle
+      size: xl
