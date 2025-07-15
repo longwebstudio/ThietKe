@@ -4,8 +4,13 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/image',
     '@nuxt/ui-pro',
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    id: 'G-7NHZPV6N6F'
+  },
 
   devtools: {
     enabled: true
